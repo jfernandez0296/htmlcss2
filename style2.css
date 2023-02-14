@@ -1,0 +1,146 @@
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+  body {
+      display: flex;
+      
+      background-color: hsl(205, 33%, 90%);
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size:18px;
+    }
+    
+    .bloque
+    
+    { display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 100px 80px 90px 190px;
+      background-color: hsl(224, 21%, 14%);
+      width:1000px;
+      height: 600px;
+    }
+    
+
+
+
+    .mayor
+    {
+    
+    justify-content: space-around;
+    align-items: center;
+    aspect-ratio: 7/8;
+    width:350px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    }
+    
+    
+    .bima
+    {
+      justify-content: space-around;
+      align-items: center;
+    
+    }
+    
+   
+    
+    .bloque1
+    
+    {
+    
+      display: flex;
+    justify-content: space-evenly;
+    
+    
+    }
+    
+    .texto1
+    {
+      padding-top:-20px;
+      margin-bottom:-5px;
+      margin-top:-30px;
+    }
+    
+    
+    .bloque2
+    {
+    margin-right:30px;
+    }
+    
+    .bloque3
+    {
+    margin-right: 40px;
+    }
+    
+    
+    
+    .followers,.likes,.photos
+    
+    {
+    font-weight: 700;
+    font-size:22px;
+    padding-bottom: 4px;
+    }
+    
+    .textfollowers,.textlikes,.textphotos
+    {
+      color:hsl(219, 14%, 63%);
+      font-weight: 400;
+      font-size:15px;
+      margin-top: -12px;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    #perfil
+    {
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    top:-15%;
+
+    border-radius: 50%;
+    border-style:solid;
+    border-color: white;
+    width: 34%;
+    }
+   
+    #encab
+    {border-radius: 10px 10px 0px 0px;
+      width: 100%;
+  
+    }
+
+
+    @media screen and (max-width: 992px){ 
+    .mayor
+       { width:50%;
+          aspect-ratio: 7/8;
+          font-size: 80%;
+        }
+    .texto1,.lon, .bloque2, .bloque3 ,.bloque4, .followers,.likes,.photos,.textfollowers,.textlikes,.textphotos
+    {
+      font-size:2vw;
+    }
+  }
+
+    @media screen and (max-width: 768px){ 
+      .mayor
+         { width:37%;
+            aspect-ratio: 7/8;
+            font-size: 70%;
+          
+          }
+      #perfil
+      {
+
+        top:-20%;
+      }
+      .texto1,.lon, .bloque2, .bloque3 ,.bloque4, .followers,.likes,.photos,.textfollowers,.textlikes,.textphotos
+      {
+        font-size:1vw;
+      }
+    }
+  
